@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">On Your Bike</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_timer">Temporizador</string>
+    <string name="title_activity_settings">Configuración</string>
+    <string name="title_activity_routes">Rutas</string>
+    <string name="title_activity_trips">Viajes</string>
+    <string name="title_activity_photo">Fotos</string>
+    <string name="title_activity_map">Mapa</string>
+
+    <!-- Menu -->
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_routes">Rutas</string>
+    <string name="menu_map">Mapa</string>
+    <string name="menu_photo">Foto</string>
+    <string name="menu_share">Compartir</string>
+
+    <!-- Buttons -->
+    <string name="start_button">Iniciar</string>
+    <string name="stop_button">Parar</string>
+    <string name="settings_button">Configuración</string>
+    <string name="back_button">Atrás</string>
+    <string name="photo_button">Sacar Foto</string>
+
+    <!-- Notifications -->
+    <string name="time_title">On Your Bike</string>
+    <string name="time_running_ticker">Continuar!</string>
+    <string name="time_running_message">Usted ha estado conduciendo durante %1$02d:%2$02d. ¡Siga así!</string>
+    <string name="time_start_ticker">¡En camino!</string>
+    <string name="time_start_message">Usted acaba de empezar.</string>
+
+    <!-- Sharing -->
+    <string name="share_title">¿Compartir con?</string>
+
+    <!-- Settings -->
+    <string name="vibrate_checkbox">Vibrar</string>
+    <string name="vibrate_on">Cuando se ejecute el temporizador vibrará a los 5 minutos, a los 15 minutos y a la hora.</string>
+    <string name="vibrate_off">El temporizador no vibrará.</string>
+    <string name="awake_checkbox">Permanecer despierto</string>
+    <string name="awake_on">La pantalla permanecerá encendida mientras el temporizador está en marcha.</string>
+    <string name="awake_off">La pantalla se puede atenuar o apagar mientras el temporizador este en marcha.</string>
+
+    <!-- GPS -->
+    <string name="gps_title">El GPS está desactivado</string>
+    <string name="gps_settings">¿Quieres activar el GPS en la configuración de ubicación?</string>
+
+</resources>

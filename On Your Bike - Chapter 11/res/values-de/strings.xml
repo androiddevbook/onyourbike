@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">Mit Rückenwind</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_timer">Zeitnahme</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="title_activity_routes">Routen</string>
+    <string name="title_activity_trips">Reisen</string>
+    <string name="title_activity_photo">Fotos</string>
+    <string name="title_activity_map">Karte</string>
+
+    <!-- Menu -->
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_routes">Routen</string>
+    <string name="menu_map">Karte</string>
+    <string name="menu_photo">Foto</string>
+    <string name="menu_share">Teilen</string>
+
+    <!-- Buttons -->
+    <string name="start_button">Starten</string>
+    <string name="stop_button">Anhalten</string>
+    <string name="settings_button">Einstellungen</string>
+    <string name="back_button">Zurück</string>
+    <string name="photo_button">Foto aufnehmen</string>
+
+    <!-- Notifications -->
+    <string name="time_title">Mit rückenwind</string>
+    <string name="time_running_ticker">Unterwegs!</string>
+    <string name="time_running_message">Sie fahren seit %1$02d:%2$02d. Prima!</string>
+    <string name="time_start_ticker">Und auf geht\'s!</string>
+    <string name="time_start_message">Die Zeitnahme läuft.</string>
+
+    <!-- Sharing -->
+    <string name="share_title">Teilen mit?</string>
+
+    <!-- Settings -->
+    <string name="vibrate_checkbox">Vibrieren</string>
+    <string name="vibrate_on">Bei aktivierter Zeitnahme Vibration alle 5 Minuten, 15 Minuten und zur vollen Stunde.</string>
+    <string name="vibrate_off">Keine Vibration.</string>
+    <string name="awake_checkbox">Bildschirmaktivität</string>
+    <string name="awake_on">Der Bildschirm bleibt an, während die Zeitnahme läuft.</string>
+    <string name="awake_off">Der Bildschirm wird gedimmt oder ausgeschaltet, während die Zeit läuft.</string>
+
+    <!-- GPS -->
+    <string name="gps_title">GPS ist ausgeschaltet</string>
+    <string name="gps_settings">Möchten Sie GPS in den Standort-Einstellungen anschalten?</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_routes">Tracks</string>
+
+    <!-- Menu -->
+    <string name="menu_routes">Tracks</string>
+
+</resources>

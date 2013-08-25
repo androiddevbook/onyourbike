@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">あなたのバイクに</string>
+    <string name="title_activity_timer">タイマー</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="hello_world">こんにちは、世界ｈ</string>
+    <string name="menu_settings">設定</string>
+    <string name="start_button">開始</string>
+    <string name="stop_button">停止</string>
+    <string name="settings_button">設定</string>
+    <string name="vibrate_checkbox">バイブレーション</string>
+    <string name="vibrate_on">タイマー実行ごとに5分、15分と時間上を振動します。</string>
+    <string name="vibrate_off">タイマーは振動しません。</string>
+    <string name="awake_checkbox">起きている</string>
+    <string name="awake_on">タイマーが動作している間に画面がオンのままになります。</string>
+    <string name="awake_off">タイマーが動作している間に画面が暗くなったりオフにすることがあります。</string>
+    <string name="time_title">あなたのバイクに</string>
+    <string name="time_running_ticker">その調子</string>
+    <string name="time_running_message">あなたは、用に乗ってきた %1$02d:%2$02d を。頑張れ！</string>
+    <string name="time_start_ticker">あなたの方法で！</string>
+    <string name="time_start_message">あなたは、まだ始まったばかり。</string>
+    <string name="back_button">戻る</string>
+    <string name="title_activity_routes">ルート</string>
+    <string name="menu_routes">ルート</string>
+    <string name="title_activity_map">地図</string>
+    <string name="menu_map">地図</string>
+    <string name="gps_title">GPSがオフになっている</string>
+    <string name="gps_settings">あなたが場所の設定でGPSをオンにしますか？</string>
+    <string name="action_settings">設定</string>
+    <string name="title_activity_trips">旅行</string>
+    <string name="title_activity_photo">写真</string>
+    <string name="photo_button">写真をとる</string>
+    <string name="menu_photo">写真</string>
+    <string name="menu_share">共有</string>
+    <string name="share_title">共有メンバー:</string>
+
+</resources>

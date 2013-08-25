@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Sur Votre Vélo"</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_timer">"Chronomètre"</string>
+    <string name="title_activity_settings">"Réglages"</string>
+    <string name="title_activity_routes">"Itinéraires"</string>
+    <string name="title_activity_trips">"Voyages"</string>
+    <string name="title_activity_photo">"Photos"</string>
+    <string name="title_activity_map">"Carte"</string>
+
+    <!-- Menu -->
+    <string name="menu_settings">"Réglages"</string>
+    <string name="menu_routes">"Itinéraires"</string>
+    <string name="menu_map">"Carte"</string>
+    <string name="menu_photo">"Photo"</string>
+    <string name="menu_share">"PARTAGER"</string>
+
+    <!-- Buttons -->
+    <string name="start_button">"Démarrez"</string>
+    <string name="stop_button">"Arrêter"</string>
+    <string name="settings_button">"Réglages"</string>
+    <string name="back_button">"Retour"</string>
+    <string name="photo_button">"Prendre photo"</string>
+
+    <!-- Notifications -->
+    <string name="time_title">"Sur votre vélo"</string>
+    <string name="time_running_ticker">"Continuez. "</string>
+    <string name="time_running_message">"Vous avez été à cheval pour %1$02d:%2$02d. Keep it up!"</string>
+    <string name="time_start_ticker">"Sur votre chemin!"</string>
+    <string name="time_start_message">"Vous avez juste commencé."</string>
+
+    <!-- Sharing -->
+    <string name="share_title">"Partager via:"</string>
+
+    <!-- Settings -->
+    <string name="vibrate_checkbox">"Vibreur"</string>
+    <string name="vibrate_on">"Minuterie lors de l'exécution se met à vibrer toutes les 5 minutes, 15 minutes et toutes les heures."</string>
+    <string name="vibrate_off">"Programmateur ne peut pas vibrer."</string>
+    <string name="awake_checkbox">"Rester activé"</string>
+    <string name="awake_on">"L'écran reste allumé tant que la minuterie est en marche."</string>
+    <string name="awake_off">"L'écran peut faible ou s'éteint lorsque la minuterie est en marche."</string>
+
+    <!-- GPS -->
+    <string name="gps_title">"GPS est éteint"</string>
+    <string name="gps_settings">"Voulez-vous allumer GPS dans les paramètres de localisation?"</string>
+
+</resources>

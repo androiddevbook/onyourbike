@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">"על האופניים שלך"</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_timer">"ספירה לאחור"</string>
+    <string name="title_activity_settings">"הגדרות"</string>
+    <string name="title_activity_routes">"נתיבים"</string>
+    <string name="title_activity_trips">"טיולים מאורגנים"</string>
+    <string name="title_activity_photo">"תמונות"</string>
+    <string name="title_activity_map">"מפה"</string>
+
+    <!-- Menu -->
+    <string name="menu_settings">"הגדרות"</string>
+    <string name="menu_routes">"נתיבים"</string>
+    <string name="menu_map">"מפה"</string>
+    <string name="menu_photo">"תמונה"</string>
+    <string name="menu_share">"שתף"</string>
+
+    <!-- Buttons -->
+    <string name="start_button">"התחלה"</string>
+    <string name="stop_button">"עצור"</string>
+    <string name="settings_button">"הגדרות"</string>
+    <string name="back_button">"חזרה"</string>
+    <string name="photo_button">"צלם תמונה"</string>
+
+    <!-- Notifications -->
+    <string name="time_title">"על האופניים שלך"</string>
+    <string name="time_running_ticker">"תמשיך ללכת!"</string>
+    <string name="time_running_message">"אתה כבר רוכב עלd %1$02d:%2$02d. המשך כך!"</string>
+    <string name="time_start_ticker">"בדרך שלך!"</string>
+    <string name="time_start_message">"יש לך רק התחיל."</string>
+
+    <!-- Sharing -->
+    <string name="share_title">"שתף דרך?"</string>
+
+    <!-- Settings -->
+    <string name="vibrate_checkbox">"רטט"</string>
+    <string name="vibrate_on">"טיימר כאשר פועלים ירטוט כל 5 דקות, 15 דקות ועל השעה."</string>
+    <string name="vibrate_off">"טיימר לא ירטוט."</string>
+    <string name="awake_checkbox">"השארי ערה!"</string>
+    <string name="awake_on">"המסך יישאר על הזמן שהטיימר פועל."</string>
+    <string name="awake_off">"המסך עשוי או עמום לכבות את שעון העצר בזמן בו פועל."</string>
+
+    <!-- GPS -->
+    <string name="gps_title">"ה-GPS כבוי"</string>
+    <string name="gps_settings">"האם אתה רוצה להפעיל את ה-GPS בהגדרות המיקום?"</string>
+
+</resources>

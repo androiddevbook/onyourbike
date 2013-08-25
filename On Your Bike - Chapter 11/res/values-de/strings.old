@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">On Your Bike</string>
+    <string name="title_activity_timer">Timer</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="hello_world">Hallo Welt!</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="start_button">Starten</string>
+    <string name="stop_button">Anhalten</string>
+    <string name="settings_button">Einstellungen</string>
+    <string name="vibrate_checkbox">Vibrieren</string>
+    <string name="vibrate_on">Timer beim Laufen vibriert alle 5 Minuten, 15 Minuten und einer Stunde.</string>
+    <string name="vibrate_off">Timer nicht vibrieren.</string>
+    <string name="awake_checkbox">Aktiv bleiben</string>
+    <string name="awake_on">Der Bildschirm bleibt an, während die Zeit läuft.</string>
+    <string name="awake_off">Der Bildschirm kann dimmen oder ausschalten, während die Zeit läuft.</string>
+    <string name="time_title">On Your Bike</string>
+    <string name="time_running_ticker">Keep going!</string>
+    <string name="time_running_message">Sie haben nach geritten %1$02d:%2$02d. Keep it up!</string>
+    <string name="time_start_ticker">Auf Ihrem Weg!</string>
+    <string name="time_start_message">Sie haben gerade erst begonnen.</string>
+    <string name="back_button">Rücken.</string>
+    <string name="title_activity_routes">Routen</string>
+    <string name="menu_routes">Routen</string>
+    <string name="title_activity_map">Karte</string>
+    <string name="menu_map">Karte</string>
+    <string name="gps_title">GPS ausgeschaltet ist</string>
+    <string name="gps_settings">Möchten Sie auf GPS in den Standort-Einstellungen drehen?</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_trips">Reisen</string>
+    <string name="title_activity_photo">Fotos</string>
+    <string name="photo_button">Foto aufnehmen</string>
+    <string name="menu_photo">Fotos</string>
+    <string name="menu_share">Teilen</string>
+    <string name="share_title">Teilen mit</string>
+
+</resources>

@@ -1,6 +1,6 @@
 package com.androiddevbook.onyourbike.chapter10.model;
 
-import com.androiddevbook.onyourbike.utils.Time;
+import com.androiddevbook.onyourbike.chapter10.utils.Time;
 
 /**
  * TimerState

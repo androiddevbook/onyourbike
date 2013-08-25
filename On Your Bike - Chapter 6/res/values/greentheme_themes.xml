@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="GreenTheme" parent="android:Theme.Light">
+
+    <item name="android:checkboxStyle">@style/CheckBoxGreenTheme</item>
+
+    <item name="android:buttonStyle">@style/ButtonGreenTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonGreenTheme</item>
+
+  </style>
+
+</resources>

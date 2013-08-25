@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="GreenTheme" parent="android:Theme.Holo.Light">
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonGreenTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonGreenTheme</item>
+
+  </style>
+
+</resources>

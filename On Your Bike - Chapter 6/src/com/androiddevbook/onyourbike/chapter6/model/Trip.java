@@ -56,32 +56,4 @@ public class Trip {
         helper.execAsyncSQL(database, dropForeignIndex);
         helper.execAsyncSQL(database, dropTable);
     }
-
-    /*
-     * public void update(SQLiteDatabase database) {
-     * String updateRow = "update table trips set timeStated = " + timeStated
-     * + ", timeTaken = " + timeTaken + "where _id = " + _id + ";";
-     * 
-     * database.execSQL(updateRow);
-     * }
-     * 
-     * public void add(SQLiteDatabase database) {
-     * String addRow = "insert into table trips"
-     * + "(timeStarted, timeTaken) values" + "( " + timeStated + ", "
-     * + timeTaken + " );";
-     * 
-     * // TODO set _id
-     * 
-     * database.execSQL(addRow);
-     * }
-     * 
-     * public void remove(SQLiteDatabase database) {
-     * String removeRow = "delete from table trips" + "where _id = " + _id
-     * + ";";
-     * 
-     * _id = -1;
-     * 
-     * database.execSQL(removeRow);
-     * }
-     */
 }

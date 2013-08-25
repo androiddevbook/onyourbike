@@ -23,7 +23,7 @@
         android:theme="@style/GreenTheme" >
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDSfLmtixUyDa5iG46FXzIrzNejXEoX03k" />
+            android:value="Your key here" />
 
         <uses-library android:name="com.google.android.maps" />
 

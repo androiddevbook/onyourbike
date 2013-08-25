@@ -29,30 +29,30 @@ import com.google.android.gms.maps.GoogleMap;
  */
 public interface IOnYourBike {
 
-    public abstract void startTimer(Trip trip);
+    public void startTimer(Trip trip);
 
-    public abstract void startSearching(Trip trip);
+    public void startSearching(Trip trip);
 
-    public abstract void stopTimer();
+    public void stopTimer();
 
-    public abstract void stopSearching();
+    public void stopSearching();
 
-    public abstract void setMap(GoogleMap map);
+    public void setMap(GoogleMap map);
 
-    public abstract boolean isTimerRunning();
+    public boolean isTimerRunning();
 
-    public abstract String timerDisplay();
+    public String timerDisplay();
 
-    public abstract Settings getSettings();
+    public Settings getSettings();
 
-    public abstract void setSettings(Settings settings);
+    public void setSettings(Settings settings);
 
-    public abstract SQLiteHelper getSQLiteHelper();
+    public SQLiteHelper getSQLiteHelper();
 
-    public abstract void checkBattery();
+    public void checkBattery();
 
-    public abstract void vibrateCheck();
+    public void vibrateCheck();
 
-    public abstract String notifyCheck();
+    public String notifyCheck();
 
 }

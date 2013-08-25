@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp" >
+
+    <CheckBox
+        android:id="@+id/vibrate_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:onClick="vibrateChanged"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/vibrate_checkbox" />
+
+    <CheckBox
+        android:id="@+id/awake_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:onClick="awakeChanged"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/awake_checkbox" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp" >
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:minWidth="120dp"
+            android:onClick="goBack"
+            android:paddingBottom="8dp"
+            android:text="@string/back_button" />
+    </RelativeLayout>
+
+</LinearLayout>

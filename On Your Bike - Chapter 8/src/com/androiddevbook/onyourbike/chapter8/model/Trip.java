@@ -66,7 +66,7 @@ public class Trip {
         database.execSQL(dropTable);
     }
 
-    public void setid(int id) {
+    public void setid(long id) {
         _id = id;
     }
 

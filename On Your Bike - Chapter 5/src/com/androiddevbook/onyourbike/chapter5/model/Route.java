@@ -56,7 +56,7 @@ public class Route {
         return name;
     }
 
-    public void setid(int id) {
+    public void setid(long id) {
         _id = id;
     }
     /*

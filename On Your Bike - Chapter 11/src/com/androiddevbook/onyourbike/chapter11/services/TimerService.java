@@ -13,7 +13,7 @@ public class TimerService extends Service {
 
     private final IBinder binder;
     private final TimerState timer;
-    private boolean isRunning;
+    private boolean running;
 
     public TimerService() {
         CLASS_NAME = getClass().getName();
@@ -32,7 +32,7 @@ public class TimerService extends Service {
     public void onCreate() {
         Log.d(CLASS_NAME, "OnCreate");
 
-        isRunning = true;
+        running = true;
         timer.reset();
     }
 
@@ -40,7 +40,7 @@ public class TimerService extends Service {
     public void onDestroy() {
         Log.d(CLASS_NAME, "onDestroy");
 
-        isRunning = false;
+        running = false;
     }
 
     public TimerState getTimer() {
@@ -48,7 +48,7 @@ public class TimerService extends Service {
     }
 
     public boolean isRunning() {
-        return isRunning;
+        return running;
     }
 
     @Override

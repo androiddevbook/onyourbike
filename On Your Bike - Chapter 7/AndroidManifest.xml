@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.androiddevbook.onyourbike.chapter8"
+    package="com.androiddevbook.onyourbike.chapter7"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -28,7 +28,7 @@
         <uses-library android:name="com.google.android.maps" />
 
         <activity
-            android:name="com.androiddevbook.onyourbike.chapter8.activities.TimerActivity"
+            android:name="com.androiddevbook.onyourbike.chapter7.activities.TimerActivity"
             android:label="@string/title_activity_timer" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,19 +37,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.androiddevbook.onyourbike.chapter8.activities.SettingsActivity"
+            android:name="com.androiddevbook.onyourbike.chapter7.activities.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
         <activity
-            android:name="com.androiddevbook.onyourbike.chapter8.activities.RoutesActivity"
+            android:name="com.androiddevbook.onyourbike.chapter7.activities.RoutesActivity"
             android:label="@string/title_activity_routes" >
         </activity>
         <activity
-            android:name="com.androiddevbook.onyourbike.chapter8.activities.TripsActivity"
+            android:name="com.androiddevbook.onyourbike.chapter7.activities.TripsActivity"
             android:label="@string/title_activity_trips" >
         </activity>
         <activity
-            android:name="com.androiddevbook.onyourbike.chapter8.activities.MapActivity"
+            android:name="com.androiddevbook.onyourbike.chapter7.activities.MapActivity"
             android:label="@string/title_activity_map" >
         </activity>
     </application>

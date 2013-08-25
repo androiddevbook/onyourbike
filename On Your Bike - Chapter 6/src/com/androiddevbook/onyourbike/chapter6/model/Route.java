@@ -27,7 +27,7 @@ import com.androiddevbook.onyourbike.chapter6.helpers.SQLiteHelper;
  * @version 1.0
  */
 public class Route {
-    private int _id;
+    private long _id;
     public String name;
     public String notes;
     public Trip trips[];

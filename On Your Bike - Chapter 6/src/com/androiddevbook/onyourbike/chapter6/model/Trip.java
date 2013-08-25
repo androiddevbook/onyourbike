@@ -27,7 +27,7 @@ import com.androiddevbook.onyourbike.chapter6.helpers.SQLiteHelper;
  * @version 1.0
  */
 public class Trip {
-    private int _id;
+    private long _id;
     public long timeStated;
     public long timeTaken;
 

@@ -22,7 +22,7 @@ import com.androiddevbook.onyourbike.chapter9.model.Trip;
 /**
  * TimerActivity
  * 
- * Main Activity for the "On Your Bike" application.
+ * Timer Activity for the "On Your Bike" application.
  * 
  * Copyright [2013] Pearson Education, Inc
  * 

@@ -27,7 +27,7 @@ import com.androiddevbook.onyourbike.chapter6.model.TimerState;
 /**
  * TimerActivity
  * 
- * Main Activity for the "On Your Bike" application.
+ * Timer Activity for the "On Your Bike" application.
  * 
  * Copyright [2013] Pearson Education, Inc
  * 

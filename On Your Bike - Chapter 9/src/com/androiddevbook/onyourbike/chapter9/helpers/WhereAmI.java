@@ -29,7 +29,7 @@ import com.google.android.gms.maps.model.PolylineOptions;
 /**
  * WhereAmI
  * 
- * NightMode for the "On Your Bike" application.
+ * WhereAmI for the "On Your Bike" application.
  * 
  * Copyright [2013] Pearson Education, Inc
  * 

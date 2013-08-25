@@ -13,6 +13,7 @@ import com.androiddevbook.onyourbike.chapter10.helpers.SQLiteHelper;
  * Trip
  * 
  * Trip for the "On Your Bike" application.
+ * 
  * Copyright [2013] Pearson Education, Inc
  * 
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not

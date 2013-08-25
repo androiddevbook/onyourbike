@@ -14,6 +14,7 @@ import com.androiddevbook.onyourbike.chapter8.model.Settings;
  * SettingsActivity
  * 
  * Setting Activity for the "On Your Bike" application.
+ * 
  * Copyright [2013] Pearson Education, Inc
  * 
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not

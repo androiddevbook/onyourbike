@@ -39,7 +39,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "OnYourBike.db";
     private static final int DATABASE_VERSION = 21;
 
-    static private int noAsyncCalls = 0;
+    static private int numAsyncCalls = 0;
 
     public SQLiteHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -62,14 +62,14 @@ public class SQLiteHelper extends SQLiteOpenHelper {
     public void execAsyncSQL(SQLiteDatabase database, String sql) {
         Log.d(CLASS_NAME, "execAsyncSQL");
 
-        noAsyncCalls++;
+        numAsyncCalls++;
         new AsyncDatabase(database).execute(sql);
     }
 
     public void execAsyncSQL(SQLiteDatabase database, String... sqls) {
         Log.d(CLASS_NAME, "execAsyncSQL");
 
-        noAsyncCalls++;
+        numAsyncCalls++;
         new AsyncDatabase(database).execute(sqls);
     }
 
@@ -107,9 +107,9 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         protected void onPostExecute(Void result) {
             Log.d(CLASS_NAME, "onPostExecute");
 
-            noAsyncCalls--;
+            numAsyncCalls--;
             // Should never be less than zero but just in case
-            if (noAsyncCalls <= 0) {
+            if (numAsyncCalls <= 0) {
                 database.close();
             }
         }

@@ -29,7 +29,7 @@ public class TimerStateTestable extends TimerState {
         time = new SettableTime();
     }
 
-    public void setElapsededTime(long value) {
+    public void setElapsedTime(long value) {
         ((SettableTime) time).time = value;
     }
 }

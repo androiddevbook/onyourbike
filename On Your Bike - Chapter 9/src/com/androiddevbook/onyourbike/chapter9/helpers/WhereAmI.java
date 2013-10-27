@@ -160,7 +160,7 @@ public class WhereAmI implements LocationListener, Listener {
                     / (OLD_LOCATION_IMPORTANCE + NEW_LOCATION_IMPORTANCE);
             lastLocationTime = System.currentTimeMillis();
         } else {
-            Log.d(CLASS_NAME, "longitute discarded");
+            Log.d(CLASS_NAME, "longitude discarded");
         }
 
         if ((System.currentTimeMillis() - lastLocationTime) >= TOO_OLD * factor) {
@@ -186,7 +186,7 @@ public class WhereAmI implements LocationListener, Listener {
                     / (OLD_LOCATION_IMPORTANCE + NEW_LOCATION_IMPORTANCE);
             lastLocationTime = System.currentTimeMillis();
         } else {
-            Log.d(CLASS_NAME, "longitute discarded");
+            Log.d(CLASS_NAME, "latitude discarded");
         }
 
         if ((System.currentTimeMillis() - lastLocationTime) >= TOO_OLD * factor) {
@@ -294,7 +294,7 @@ public class WhereAmI implements LocationListener, Listener {
             Log.d(CLASS_NAME, "GPS Stopped");
             break;
         case GpsStatus.GPS_EVENT_SATELLITE_STATUS:
-            // too many don???t log
+            // too many don't log
             break;
         }
     }

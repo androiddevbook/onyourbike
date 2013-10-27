@@ -109,7 +109,7 @@ public class Route {
     }
 
     public void delete(SQLiteDatabase database) {
-        String removeRow = "delete from routes " + "where _id = " + _id;
+        String removeRow = "delete from routes where _id = " + _id;
 
         database.execSQL(removeRow);
 

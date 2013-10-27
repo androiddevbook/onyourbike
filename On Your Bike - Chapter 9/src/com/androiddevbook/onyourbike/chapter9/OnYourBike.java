@@ -189,7 +189,7 @@ public class OnYourBike extends Application {
         Battery battery = new Battery();
         Context context = getApplicationContext();
 
-        // If battery is critical stuff off location tracking
+        // If battery is critical shut off location tracking
         if (battery.isCritical(context)) {
             Intent whereAmIIntent = new Intent(getApplicationContext(),
                     WhereAmIService.class);

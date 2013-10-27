@@ -114,12 +114,8 @@ public class WhereAmI implements LocationListener, Listener {
 
             AlertDialog.Builder alert = new AlertDialog.Builder(application);
             alert.setIcon(android.R.attr.alertDialogIcon)
-                    .setTitle(
-                            application.getResources().getText(
-                                    R.string.gps_title))
-                    .setMessage(
-                            application.getResources().getText(
-                                    R.string.gps_settings))
+                    .setTitle(application.getText(R.string.gps_title))
+                    .setMessage(application.getText(R.string.gps_settings))
                     .setPositiveButton(android.R.string.yes, new DialogClick())
                     .setNegativeButton(android.R.string.no, null).show();
         }
@@ -166,7 +162,7 @@ public class WhereAmI implements LocationListener, Listener {
                     / (OLD_LOCATION_IMPORTANCE + NEW_LOCATION_IMPORTANCE);
             lastLocationTime = System.currentTimeMillis();
         } else {
-            Log.d(CLASS_NAME, "longitute discarded");
+            Log.d(CLASS_NAME, "longtitude discarded");
         }
 
         if ((System.currentTimeMillis() - lastLocationTime) >= TOO_OLD * factor) {
@@ -192,7 +188,7 @@ public class WhereAmI implements LocationListener, Listener {
                     / (OLD_LOCATION_IMPORTANCE + NEW_LOCATION_IMPORTANCE);
             lastLocationTime = System.currentTimeMillis();
         } else {
-            Log.d(CLASS_NAME, "longitute discarded");
+            Log.d(CLASS_NAME, "latitude discarded");
         }
 
         if ((System.currentTimeMillis() - lastLocationTime) >= TOO_OLD * factor) {
@@ -300,7 +296,7 @@ public class WhereAmI implements LocationListener, Listener {
             Log.d(CLASS_NAME, "GPS Stopped");
             break;
         case GpsStatus.GPS_EVENT_SATELLITE_STATUS:
-            // too many don???t log
+            // too many don't log
             break;
         }
     }

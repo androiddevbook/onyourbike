@@ -24,7 +24,7 @@
         android:theme="@style/GreenTheme" >
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="Your key here" />
+            android:value="Your API key goes here" />
 
         <uses-library android:name="com.google.android.maps" />
 

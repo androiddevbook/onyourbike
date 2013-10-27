@@ -110,7 +110,7 @@ public class Route {
     }
 
     public void delete(SQLiteHelper helper, SQLiteDatabase database) {
-        String removeRow = "delete from routes " + "where _id = " + _id;
+        String removeRow = "delete from routes where _id = " + _id;
 
         helper.execAsyncSQL(database, removeRow);
 

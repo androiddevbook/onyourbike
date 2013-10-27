@@ -97,13 +97,13 @@ public class Trip {
 
     public void update(SQLiteHelper helper, SQLiteDatabase database) {
         String updateRow = "update trips set timeStated = " + timeStarted
-                + ", timeTaken = " + timeTaken + "where _id = " + _id;
+                + ", timeTaken = " + timeTaken + " where _id = " + _id;
 
         helper.execAsyncSQL(database, updateRow);
     }
 
     public void delete(SQLiteHelper helper, SQLiteDatabase database) {
-        String removeRow = "delete from trips" + "where _id = " + _id;
+        String removeRow = "delete from trips where _id = " + _id;
 
         helper.execAsyncSQL(database, removeRow);
 

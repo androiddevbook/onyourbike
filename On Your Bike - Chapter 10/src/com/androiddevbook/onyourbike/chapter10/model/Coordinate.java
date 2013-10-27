@@ -58,7 +58,7 @@ public class Coordinate {
     public void update(SQLiteDatabase database) {
         String updateRow = "update coordinates set latitude = " + latitude
                 + ", longitude = " + longitude + ", timeAt = " + timeAt
-                + "where _id = " + _id;
+                + " where _id = " + _id;
 
         database.execSQL(updateRow);
     }
@@ -84,7 +84,7 @@ public class Coordinate {
     }
 
     public void delete(SQLiteHelper helper, SQLiteDatabase database) {
-        String removeRow = "delete from coordinates " + "where _id = " + _id;
+        String removeRow = "delete from coordinates where _id = " + _id;
 
         _id = -1;
 

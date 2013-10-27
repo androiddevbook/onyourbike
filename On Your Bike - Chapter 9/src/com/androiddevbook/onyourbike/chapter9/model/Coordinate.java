@@ -84,7 +84,7 @@ public class Coordinate {
     }
 
     public void delete(SQLiteHelper helper, SQLiteDatabase database) {
-        String removeRow = "delete from coordinates " + "where _id = " + _id;
+        String removeRow = "delete from coordinates where _id = " + _id;
 
         _id = -1;
 

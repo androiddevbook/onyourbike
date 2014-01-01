@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translation into Dutch by Christophe Herreman <christophe.herreman@gmail.com> -->
+<resources>
+
+    <string name="app_name">Op die Fiets</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_timer">Timer</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="title_activity_routes">Routes</string>
+    <string name="title_activity_trips">Trips</string>
+    <string name="title_activity_photo">Foto's</string>
+    <string name="title_activity_map">Kaart</string>
+
+    <!-- Menu -->
+    <string name="menu_settings">Instellingen</string>
+    <string name="menu_routes">Routes</string>
+    <string name="menu_map">Kaart</string>
+    <string name="menu_photo">Foto</string>
+    <string name="menu_share">Deel</string>
+
+    <!-- Buttons -->
+    <string name="start_button">Start</string>
+    <string name="stop_button">Stop</string>
+    <string name="settings_button">Instellingen</string>
+    <string name="back_button">Vorige</string>
+    <string name="photo_button">Foto nemen</string>
+
+    <!-- Notifications -->
+    <string name="time_title">Op die Fiets</string>
+    <string name="time_running_ticker">Blijven gaan!</string>
+    <string name="time_running_message">Je hebt reeds %1$02d:%2$02d gereden. Ga zo door!</string>
+    <string name="time_start_ticker">Op de goede weg!</string>
+    <string name="time_start_message">Je bent net begonnen.</string>
+
+    <!-- Sharing -->
+    <string name="share_title">Deel met..</string>
+
+    <!-- Settings -->
+    <string name="vibrate_checkbox">Trillen</string>
+    <string name="vibrate_on">Actieve timer zal elke 5 minuten, 15 minuten en op het uur trillen.</string>
+    <string name="vibrate_off">Timer zal niet trillen.</string>
+    <string name="awake_checkbox">Wakker blijven</string>
+    <string name="awake_on">Het scherm blijft aan terwijl de timer loopt.</string>
+    <string name="awake_off">Het scherm kan dimmen of uitschakelen terwijl de timer loopt.</string>
+
+    <!-- GPS -->
+    <string name="gps_title">GPS is uitgeschakeld</string>
+    <string name="gps_settings">Wilt u de GPS inschakelen in de locatie-instellingen?</string>
+
+</resources>

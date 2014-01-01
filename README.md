@@ -3,7 +3,7 @@ On Your Bike
 
 The On Your Bike application for Learning Android Application Programming book published by Addison-Wesley (an imprint of Pearson) in December 2013.
 
-The book is available to order on Amazon and is available in Kindle, ePub, mobi and PDF formats.
+The book is available to order on [Amazon](http://www.amazon.com/Learning-Android-Application-Programming-Applications/dp/0321902939) and is available for [Kindle](http://www.amazon.com/Learning-Android-Application-Programming-Applications-ebook/dp/B00HFULEL2), on [Google Play](https://play.google.com/store/books/details/James_Talbot_Learning_Android_Application_Programm?id=DoRmAgAAQBAJ) and on [iTunes](https://itunes.apple.com/us/book/learning-android-application/id787228244).
 
 Get a comprehensive deep dive into Android Application programming.
 
